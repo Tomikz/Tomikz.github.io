@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script:wght@600&display=swap');
+
+
+
+/*font-family: 'Advent Pro', sans-serif;
+font-family: 'Dancing Script', cursive;*/
+
+body{
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{ 
+    list-style-type: none;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+/**********************************NAVBAR*********************************/
+
+nav{
+    overflow: hidden;
+    background-color: #fffae1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header li a{ 
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float:left;
+}
+
+/********************Image principale*********************************/
+
+#Imageprincipale {
+    padding-top: 60px;
+    background: url(photos/phiphi.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height:799px
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: #fffae1;
+    font-size: 6em;
+    margin-top: 110px;
+    text-shadow: 1px 3px 2px black;
+}
+
+#Premiertrait{
+    height: 1px;
+    width: 220px;
+    margin: -3px auto;
+    background-color: #fffae1;
+    box-shadow: 1px 3px 2px black;
+}
+
+header h2{
+    text-align: center;
+    color: #fffae1;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+/********************PRESENTATION*********************************/
+
+#presentation {
+    background-color: #fffae1;
+    padding: 10px 0px 100px 0px;    
+}
+#textintro {
+    padding: 0px 20%;
+}
+
+#Photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 15%;
+}
+.photosmuffin h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.photosmuffin img {
+    border-radius: 10px;
+    box-shadow: 4px 6px 6px 1px rgba(0,0,0,0.82);
+}
+.photosmuffin img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+
+/********************recettes*********************************/
+
+
+#recettesgato {
+    background-color: #f1f2f6;
+    padding: 50px 0 50px 0
+}
+
+#recettesgato h2 {
+    padding-top: 30px;
+}
+
+#recettesgato {
+    justify-content: center
+}
+
+.rect h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.rect img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;
+    box-shadow: 4px 6px 6px 1px rgba(0,0,0,0.82);
+}
+.rect img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+/********************FOOTER*********************************/
+
+footer {
+    background-color: #524A3A;
+    color: #fffae1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto ;
+    max-width: 900px;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    background-color: #fffae1;
+}
+textarea{ 
+    height: 120px;
+    resize: none;
+}
+button{
+    font-size: 1.5em;
+}
+button:hover {
+    background-color: #e55039;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#Deuxiemetrait{
+    height: 1px;
+    width: 75%;
+    background-color: #fffae1;
+    margin: 60px auto;
+}
+
+#copyrighteticons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#Copyright{
+width: 50%;
+text-align: left;
+color: #fffae1;
+}
+
+#icons{
+    width: 50%;
+    text-align: right;
+}
+
+#icons a{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #fffae1;
+}
